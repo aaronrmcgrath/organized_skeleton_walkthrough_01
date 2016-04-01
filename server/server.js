@@ -1,3 +1,5 @@
+// SERVER: pulls in express, database, body-parser, and index.js (router)
+
 var express = require('express');
 var app = express();
 var index = require('./modules/index.js');
